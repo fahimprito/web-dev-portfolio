@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* web body font */
+.basic-font {
+    font-family: 'Open Sans';
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+/* nav style */
+nav {
+    display: flex;
+}
+nav .nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* nav h3{
+    
+} */
