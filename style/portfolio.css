@@ -5,12 +5,20 @@
     font-family: 'Open Sans';
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary {
     color: #FD6E0A;
 }
-
+.dark1{
+    color: #181818;
+}
 .dark2 {
     color: #474747;
+}
+.dark3 {
+    color: #757575;
 }
 
 .btn-primary {
@@ -57,8 +65,14 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
+/* main-style */
+main{
+    max-width: 1140px ;
+    margin: 0 auto;
+}
 
-/* banner */
+
+/* banner ----------------------------------------*/
 .banner{
     display: flex;
     justify-content: space-between;
@@ -80,4 +94,30 @@ nav ul li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* about--------------------------- */
+.about{
+    border-radius: 10px;
+    padding: 130px 155px;  
+    
+    margin-top: 130px;
+}
+.about-contrainer{
+    
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+.section-description{
+    font-size: 18px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
